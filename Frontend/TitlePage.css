@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+body {
+  background-color: #9e9d9d; /* Set light grey background outside the box */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  font-family: Arial, sans-serif; /* Fallback font */
+}
+
+.title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.title-box {
+  background-color: #ffffff; /* Set white background inside the box */
+  border-radius: 10px;
+  border: 2px solid #0e0e0e; /* Add border */
+  box-shadow: 30px 30px 60px rgba(0, 0, 0, 0.3); /* Increase shadow effect */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.main-title {
+  font-size: 50px;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 20px;
+  font-family: 'Kaushan Script', cursive;
+  text-align: center;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: center; /* Align buttons horizontally */
+  margin-top: 20px;
+}
+
+.main-button {
+  background-color: #000000; /* Set button background color */
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 0 5px; /* Add margin between buttons */
+  transition: background-color 0.3s ease; /* Add transition effect */
+}
+
+.main-button:hover {
+  background-color: #808080; /* Change background color on hover */
+}
+
+.main-button svg {
+  margin-right: 5px; /* Add space between icon and text */
+}
